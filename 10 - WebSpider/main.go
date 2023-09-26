@@ -81,8 +81,6 @@ func main() {
 	urls = append(urls, "https://oguzhantasimaz.com/")
 	urls = append(urls, "https://oguzhantasimaz.com/photography")
 	urls = append(urls, "https://oguzhantasimaz.com/contact")
-	//urls = append(urls, "https://google.com")
-	//urls = append(urls, "https://youtube.com")
 
 	fmt.Println("Starting spider")
 	urlsProcessed = 0

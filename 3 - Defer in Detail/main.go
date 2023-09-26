@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	aValue := new(int)
 
-	defer fmt.Println(*aValue)
+	//defer fmt.Println(*aValue)
 	// If here returns 0
 
 	for i := 0; i < 100; i++ {

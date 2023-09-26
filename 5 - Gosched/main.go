@@ -1,7 +1,5 @@
 package main
 
-//PAGE 19
-
 import (
 	"fmt"
 	"runtime"

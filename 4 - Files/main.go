@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"os"
 	"time"
 )
 
@@ -21,11 +21,12 @@ func outputText(j *Job) {
 		fmt.Println(j.text)
 		j.i++
 	}
-	err := ioutil.WriteFile(fileName, []byte(fileContents), 0644)
+	err := os.WriteFile(fileName, []byte(fileContents), 0644)
 	if err != nil {
 		panic("Something went awry")
 	}
 }
+
 func main() {
 	hello := new(Job)
 	hello.text = "hello"
@@ -39,4 +40,9 @@ func main() {
 
 	go outputText(hello)
 	go outputText(world)
+
+	//sleep for 1 second to allow goroutines to finish
+	//if we don't do this, the program will exit before
+	//try testing this by removing the sleep
+	time.Sleep(1 * time.Second)
 }

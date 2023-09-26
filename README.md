@@ -31,3 +31,10 @@ I strongly recommend you to research Communicating Sequential Processes (CSP). T
 - [Mastering Concurrency in Go](https://www.packtpub.com/product/mastering-concurrency-in-go/9781783983483) by Nathan Kozyra
 - [Concurrency in Go](https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/) by Katherine Cox-Buday
 - [Communicating Sequential Processes](http://www.usingcsp.com/cspbook.pdf) by Tony Hoare
+
+### Abbreviations
+- OR: Original Repository
+- WG: WaitGroup
+- CH: Channel
+- CTX: Context
+- MUX: Mutex
