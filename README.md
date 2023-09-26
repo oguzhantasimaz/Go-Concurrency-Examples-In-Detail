@@ -21,8 +21,7 @@ To get started with these examples, follow these steps:
 ## Contributing
 
 If you have additional examples, improvements, or corrections to existing code, please feel free to open a pull request.
-
-Feel free to customize this README template to include specific details about your repository's structure and examples. Additionally, create a `CONTRIBUTING.md` file if you have specific guidelines for contributors, and make sure to replace `your-username` with your actual GitHub username in the clone URL.
+Also feel free to customize this README.md file. 
 
 ### OR's Note
 I strongly recommend you to research Communicating Sequential Processes (CSP). This is the theoretical basis of Go's concurrency model. I have added a link to the book below. You can also find a lot of resources on the internet.
