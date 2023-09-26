@@ -14,6 +14,8 @@ The code creates a web server that serves an SVG image at the "/visualize" endpo
 
 Placeholder images illustrating the differences between the two processes are shown below:
 
+### Process 1 (Without Goroutines)
 ![Process 1 (No Goroutines)](https://github.com/oguzhantasimaz/Go-Concurrency-Examples-In-Detail/blob/main/VisualizeConcurrencyWithSVG/without_concurrency.png)
 
+### Process 2 (With Goroutines)
 ![Process 2 (With Goroutines)](https://github.com/oguzhantasimaz/Go-Concurrency-Examples-In-Detail/blob/main/VisualizeConcurrencyWithSVG/with_concurrency.png)
