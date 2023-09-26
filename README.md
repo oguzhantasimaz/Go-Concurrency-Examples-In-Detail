@@ -23,8 +23,10 @@ To get started with these examples, follow these steps:
 If you have additional examples, improvements, or corrections to existing code, please feel free to open a pull request.
 Also feel free to customize this README.md file. 
 
-### OR's Note
-I strongly recommend you to research Communicating Sequential Processes (CSP). This is the theoretical basis of Go's concurrency model. I have added a link to the book below. You can also find a lot of resources on the internet.
+### OR's Notes
+I strongly recommend you to research Communicating Sequential Processes (CSP). This is the theoretical basis of Go's concurrency model. I have added a link to the book below. You can also find a lot of resources on the internet.\
+
+Even though defer is not a concurrency feature, I added a DeferWorkLogic folder to show you how defer works. I think it is a good idea to know how defer works before you start learning concurrency in Go.
 
 ## Resources
 - [Mastering Concurrency in Go](https://www.packtpub.com/product/mastering-concurrency-in-go/9781783983483) by Nathan Kozyra
