@@ -2,8 +2,10 @@
 
 Welcome to the Go Concurrency Examples repository! This collection of code snippets and examples is designed to help you understand and implement concurrency in Go (Golang).
 
-#### Information
+## Before You Begin
 This repository still under development. I will add more examples as I learn more about concurrency in Go.
+
+Most of the folders contain a README.md file that explains the code in detail. I'll add README.md files to the remaining folders as soon as possible.
 
 ## Introduction
 Go is known for its powerful concurrency support through goroutines and channels. This repository aims to show Go's concurrency features and provide you with hands-on examples that cover a wide range of topics.
