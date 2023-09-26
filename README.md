@@ -32,7 +32,7 @@ I strongly recommend you to research Communicating Sequential Processes (CSP). T
 - [Communicating Sequential Processes](http://www.usingcsp.com/cspbook.pdf) by Tony Hoare
 
 ### Abbreviations
-- OR: Original Repository
+- OR: Owner of this repository
 - WG: WaitGroup
 - CH: Channel
 - CTX: Context
